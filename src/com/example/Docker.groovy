@@ -14,7 +14,7 @@ class Docker implements Serializable {
         script.sh "docker build -t $imageName ."
     }
    def dockerLogin() {
-      echo "barev"
+      script.echo "barev"
     }
 
 
